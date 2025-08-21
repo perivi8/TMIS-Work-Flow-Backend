@@ -13,7 +13,7 @@ app.config.from_object(Config)
 # ✅ Enable CORS for both localhost & Vercel
 CORS(app, origins=[
     "http://localhost:4200",
-    "https://tmis-work-flow.vercel.app/"
+    "https://tmis-work-flow.vercel.app"
 ], supports_credentials=True)
 
 # ✅ Automatically allow all OPTIONS requests (preflight)
